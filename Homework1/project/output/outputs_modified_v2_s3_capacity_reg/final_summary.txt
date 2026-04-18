@@ -1,0 +1,39 @@
+﻿Homework1 Modified V2 Summary
+============================
+Seed: 42
+Split policy: 80/20 with shuffle_before_split=True
+Split index: 824
+Train count: 824
+Test count: 206
+Sub-train count: 660
+Validation count: 164
+Validation split in train: last 20% for val
+Features: ['cement', 'slag', 'flyash', 'water', 'superplasticizer', 'coarseaggregate', 'fineaggregate', 'age']
+Target: csMPa
+Feature engineering - water_binder_ratio: False
+Model hidden dims: (512, 256, 128, 64)
+Model dropout: 0.1
+Loss: MSELoss
+Learning rate: 0.0008
+Weight decay: 0.0001
+Batch size: 32
+Max epochs: 600
+Scheduler: ReduceLROnPlateau(patience=20, factor=0.5)
+Early stopping patience: 80
+Best epoch: 109
+Best validation loss: 0.072902
+Target scaling: StandardScaler fitted on sub-train target only
+Test MSE: 21.992014
+Test RMSE: 4.689564
+Test MAE: 3.428940
+Test R2: 0.906781
+Model path: H:\aa_study\Neural_Networks_and_Their_Applications\NN_Homework\Homework1\project\output\outputs_modified_v2_s3_capacity_reg\final_model.pth
+ONNX path: H:\aa_study\Neural_Networks_and_Their_Applications\NN_Homework\Homework1\project\output\outputs_modified_v2_s3_capacity_reg\final_model.onnx
+Loss curve path: H:\aa_study\Neural_Networks_and_Their_Applications\NN_Homework\Homework1\project\output\outputs_modified_v2_s3_capacity_reg\train_loss_curve.png
+Scatter plot path: H:\aa_study\Neural_Networks_and_Their_Applications\NN_Homework\Homework1\project\output\outputs_modified_v2_s3_capacity_reg\test_true_vs_pred.png
+Reproducibility notes:
+- Fixed random seed for random/NumPy/PyTorch.
+- Feature preprocessing fit only on train set.
+- Target scaler fit only on sub-train target.
+- Script: train_modified_v2.py
+

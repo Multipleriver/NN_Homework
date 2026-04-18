@@ -1,0 +1,27 @@
+﻿Homework1 Baseline Summary
+==========================
+Seed: 42
+Split policy: first 80% train / last 20% test (no shuffle)
+Split index: 824
+Train count: 824
+Test count: 206
+Features: ['cement', 'slag', 'flyash', 'water', 'superplasticizer', 'coarseaggregate', 'fineaggregate', 'age']
+Target: csMPa
+Model: MLP hidden dims=(64, 32)
+Learning rate: 0.001
+Batch size: 32
+Epochs: 200
+Test MSE: 138.531754
+Test RMSE: 11.769951
+Test MAE: 9.333983
+Test R2: 0.092369
+Model path: NN_Homework/Homework1/project/output/outputs/final_model.pth
+ONNX path: NN_Homework/Homework1/project/output/outputs/final_model.onnx
+Loss curve path: NN_Homework/Homework1/project/output/outputs/train_loss_curve.png
+Scatter plot path: NN_Homework/Homework1/project/output/outputs/test_true_vs_pred.png
+Netron PNG path: NN_Homework/Homework1/project/output/outputs/final_model.onnx.png
+Netron SVG path: NN_Homework/Homework1/project/output/outputs/final_model.onnx.svg
+Reproducibility notes:
+- Fixed random seed for random/NumPy/PyTorch.
+- Preprocessing fit only on training set, then transform test set.
+- Execution: run cells sequentially or Run All in this Notebook.

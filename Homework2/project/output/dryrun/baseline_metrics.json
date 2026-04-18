@@ -1,0 +1,18 @@
+{
+  "model_name": "baseline",
+  "epochs": 3,
+  "optimizer": "AdamW",
+  "scheduler": "CosineAnnealingLR",
+  "loss": "CrossEntropyLoss",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0005,
+  "amp_enabled": true,
+  "best_epoch": 3,
+  "best_test_acc": 88.55255070682237,
+  "best_test_loss": 0.41388578248595487,
+  "final_train_acc": 69.79537791610358,
+  "final_test_acc": 88.55255070682237,
+  "final_train_loss": 0.8751480019552916,
+  "final_test_loss": 0.41388578248595487,
+  "max_gpu_memory_mb": 358.56298828125
+}

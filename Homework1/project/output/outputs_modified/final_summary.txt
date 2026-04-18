@@ -1,0 +1,36 @@
+﻿Homework1 Modified Baseline Summary
+==================================
+Seed: 42
+Split policy: first 80% train / last 20% test (no shuffle)
+Split index: 824
+Train count: 824
+Test count: 206
+Sub-train count: 660
+Validation count: 164
+Validation split in train: last 20% for val
+Features: ['cement', 'slag', 'flyash', 'water', 'superplasticizer', 'coarseaggregate', 'fineaggregate', 'age']
+Target: csMPa
+Model: MLP hidden dims=(64, 32)
+Loss: HuberLoss(delta=1.0)
+Learning rate: 0.001
+Batch size: 32
+Max epochs: 200
+Scheduler: ReduceLROnPlateau(patience=10, factor=0.5)
+Early stopping patience: 30
+Best epoch: 20
+Best validation loss: 0.043354
+Target scaling: StandardScaler fitted on sub-train target only
+Test MSE: 105.510445
+Test RMSE: 10.271828
+Test MAE: 8.623607
+Test R2: 0.308718
+Model path: H:\aa_study\Neural_Networks_and_Their_Applications\NN_Homework\Homework1\project\output\outputs_modified\final_model.pth
+ONNX path: H:\aa_study\Neural_Networks_and_Their_Applications\NN_Homework\Homework1\project\output\outputs_modified\final_model.onnx
+Loss curve path: H:\aa_study\Neural_Networks_and_Their_Applications\NN_Homework\Homework1\project\output\outputs_modified\train_loss_curve.png
+Scatter plot path: H:\aa_study\Neural_Networks_and_Their_Applications\NN_Homework\Homework1\project\output\outputs_modified\test_true_vs_pred.png
+Reproducibility notes:
+- Fixed random seed for random/NumPy/PyTorch.
+- Feature preprocessing fit only on train set.
+- Target scaler fit only on sub-train target.
+- Execution command: .conda/nn_hw/python.exe Homework1/project/programs/train_modified.py --step 11
+

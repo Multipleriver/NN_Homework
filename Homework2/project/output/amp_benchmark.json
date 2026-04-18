@@ -1,0 +1,21 @@
+{
+  "available": true,
+  "fp32": {
+    "amp_enabled": false,
+    "steps": 30,
+    "samples": 7680,
+    "elapsed_sec": 2.5578655999997864,
+    "samples_per_sec": 3002.5033371576055,
+    "max_gpu_memory_mb": 1727.568359375
+  },
+  "amp": {
+    "amp_enabled": true,
+    "steps": 30,
+    "samples": 7680,
+    "elapsed_sec": 1.2296444000021438,
+    "samples_per_sec": 6245.708108772431,
+    "max_gpu_memory_mb": 776.0380859375
+  },
+  "speedup_x": 2.080166916545407,
+  "amp_memory_vs_fp32": 0.44920832320537246
+}

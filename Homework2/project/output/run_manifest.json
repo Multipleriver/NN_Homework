@@ -1,0 +1,13 @@
+{
+  "project_dir": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project",
+  "resource_dir": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\resource",
+  "output_dir": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\output",
+  "report_dir": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\report",
+  "step1_validation": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\output\\step1_data_validation.json",
+  "dryrun_summary": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\output\\step2_dryrun_summary.json",
+  "amp_benchmark": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\output\\amp_benchmark.json",
+  "report_path": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\report\\homework2_report.md",
+  "summary_path": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\output\\final_summary.txt",
+  "best_model": "resnet18",
+  "final_checkpoint": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\output\\final_model.pth"
+}

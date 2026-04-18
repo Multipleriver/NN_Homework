@@ -1,0 +1,43 @@
+Homework2 Summary
+=================
+Timestamp: 2026-04-17 22:04:06
+Seed: 42
+Models: ['baseline', 'resnet18']
+Epochs(full): 20
+Epochs(dry-run): 3
+Batch size: 256
+Learning rate: 0.001
+Weight decay: 0.0005
+Device: cuda (Tesla V100-SXM2-16GB)
+AMP enabled: True
+
+Step 1 validation:
+- batch_shape: [256, 3, 32, 32]
+- label_min/max: 0 / 9
+
+Step 2 dry-run verdict:
+- baseline: loss 2.2541 -> 0.8751, decreased=True
+- resnet18: loss 0.7706 -> 0.2359, decreased=True
+
+Step 3 full training:
+- baseline: best_acc=95.42%, best_loss=0.1852, best_epoch=20, params=2658762
+- resnet18: best_acc=96.58%, best_loss=0.1333, best_epoch=17, params=11173962
+
+Best model by test accuracy: resnet18
+Primary checkpoint: H:\aa_study\Neural_Networks_and_Their_Applications\NN_Homework\Homework2\project\output\final_model.pth
+
+AMP benchmark:
+- FP32 throughput: 3002.50 samples/s
+- AMP throughput: 6245.71 samples/s
+- Speedup: 2.080x
+- AMP memory / FP32 memory: 0.449
+
+Generated figures:
+- H:\aa_study\Neural_Networks_and_Their_Applications\NN_Homework\Homework2\project\report\baseline_curves.png
+- H:\aa_study\Neural_Networks_and_Their_Applications\NN_Homework\Homework2\project\report\baseline_curves.svg
+- H:\aa_study\Neural_Networks_and_Their_Applications\NN_Homework\Homework2\project\report\resnet18_curves.png
+- H:\aa_study\Neural_Networks_and_Their_Applications\NN_Homework\Homework2\project\report\resnet18_curves.svg
+- H:\aa_study\Neural_Networks_and_Their_Applications\NN_Homework\Homework2\project\report\model_comparison_compact.png
+- H:\aa_study\Neural_Networks_and_Their_Applications\NN_Homework\Homework2\project\report\model_comparison_compact.svg
+
+Report path: H:\aa_study\Neural_Networks_and_Their_Applications\NN_Homework\Homework2\project\report\homework2_report.md

@@ -1,0 +1,18 @@
+{
+  "model_name": "resnet18",
+  "epochs": 3,
+  "optimizer": "AdamW",
+  "scheduler": "CosineAnnealingLR",
+  "loss": "CrossEntropyLoss",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0005,
+  "amp_enabled": true,
+  "best_epoch": 3,
+  "best_test_acc": 94.79486785494775,
+  "best_test_loss": 0.1906489605964439,
+  "final_train_acc": 93.04366818188024,
+  "final_test_acc": 94.79486785494775,
+  "final_train_loss": 0.23585240804167995,
+  "final_test_loss": 0.1906489605964439,
+  "max_gpu_memory_mb": 819.55908203125
+}

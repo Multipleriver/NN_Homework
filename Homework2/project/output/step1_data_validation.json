@@ -1,0 +1,20 @@
+{
+  "step": 1,
+  "resource_dir": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\resource",
+  "train_path": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\resource\\train_32x32.mat",
+  "test_path": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\resource\\test_32x32.mat",
+  "train_size": 73257,
+  "test_size": 26032,
+  "num_workers": 8,
+  "batch_check": {
+    "batch_shape": [
+      256,
+      3,
+      32,
+      32
+    ],
+    "label_min": 0,
+    "label_max": 9,
+    "dtype": "torch.float32"
+  }
+}

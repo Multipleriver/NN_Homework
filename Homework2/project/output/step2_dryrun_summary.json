@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "baseline": {
+      "params": 2658762,
+      "metrics_path": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\output\\dryrun\\baseline_metrics.json",
+      "history_path": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\output\\dryrun\\baseline_history.json",
+      "final_model_path": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\output\\dryrun\\baseline_final_model.pth",
+      "best_model_path": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\output\\dryrun\\baseline_best_model.pth",
+      "best_epoch": 3,
+      "best_test_acc": 88.55255070682237,
+      "best_test_loss": 0.41388578248595487,
+      "final_test_acc": 88.55255070682237,
+      "final_test_loss": 0.41388578248595487,
+      "max_gpu_memory_mb": 358.56298828125
+    },
+    "resnet18": {
+      "params": 11173962,
+      "metrics_path": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\output\\dryrun\\resnet18_metrics.json",
+      "history_path": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\output\\dryrun\\resnet18_history.json",
+      "final_model_path": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\output\\dryrun\\resnet18_final_model.pth",
+      "best_model_path": "H:\\aa_study\\Neural_Networks_and_Their_Applications\\NN_Homework\\Homework2\\project\\output\\dryrun\\resnet18_best_model.pth",
+      "best_epoch": 3,
+      "best_test_acc": 94.79486785494775,
+      "best_test_loss": 0.1906489605964439,
+      "final_test_acc": 94.79486785494775,
+      "final_test_loss": 0.1906489605964439,
+      "max_gpu_memory_mb": 819.55908203125
+    }
+  },
+  "verdict": {
+    "baseline": {
+      "start_train_loss": 2.2540741144495313,
+      "end_train_loss": 0.8751480019552916,
+      "loss_decreased": true
+    },
+    "resnet18": {
+      "start_train_loss": 0.7705785471313957,
+      "end_train_loss": 0.23585240804167995,
+      "loss_decreased": true
+    }
+  }
+}
